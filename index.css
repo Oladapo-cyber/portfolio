@@ -1,0 +1,143 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: whitesmoke;
+  font-family: "Courier New", Courier, monospace;
+  box-sizing: border-box;
+}
+
+nav {
+  display: flex;
+  margin-top: 20px;
+  padding: 10px 20px;
+  justify-content: space-between;
+  background-color: #fff;
+  font-size: large;
+  font-weight: bold;
+  align-items: center;
+}
+
+.nav-logo {
+  height: 50px;
+  width: auto;
+}
+
+nav ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+nav ul li:hover {
+  background-color: #000000af;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.bold-heading h1 {
+  text-align: center;
+  margin: 30px;
+  font-size: 5rem;
+  color: rgb(43, 43, 118);
+}
+
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 70px;
+  margin-right: 70px;
+}
+
+.hero-img {
+  height: 350px;
+  width: auto;
+  border-radius: 5px;
+}
+
+.left {
+  margin-top: auto;
+  padding: 50px;
+}
+
+.left button {
+  margin-top: 20px;
+  padding: 20px 10px;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-weight: bold;
+  background-color: #000000;
+}
+
+.projects {
+  padding: 20px;
+  background-color: #f4f4f4;
+  display: flex;
+  flex-direction: column;
+}
+
+.projects h1 {
+  text-align: center;
+  text-decoration: underline;
+  font-size: xx-large;
+  margin-bottom: 20px;
+}
+
+.project {
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin: 20px;
+  padding: 20px;
+  text-align: center;
+}
+
+.project img {
+  max-width: 50%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.project h3 {
+  margin-top: 10px;
+}
+
+.project-btn {
+  margin-top: 10px;
+  padding: 15px 10px;
+  background-color: #dc143c;
+  color: white;
+  font-size: medium;
+  text-align: center;
+  width: 40%;
+  outline: none;
+  border: none;
+  border-radius: 10px;
+}
+
+.project-btn:hover {
+  background-color: #b81233;
+}
+
+footer {
+  background-color: #c9c4c4;
+  color: white;
+  color: #000000;
+  font-size: large;
+  font-weight: 600;
+  text-align: center;
+  padding: 10px 0;
+}
+
+footer a {
+  color: #000000;
+  text-decoration: none;
+}
