@@ -67,12 +67,12 @@ nav ul li:hover {
   border-radius: 5px;
 }
 
-.left {
+.right {
   margin-top: auto;
-  padding: 50px;
+  padding: 5%;
 }
 
-.left button {
+.right button {
   margin-top: 20px;
   padding: 20px 10px;
   border: none;
@@ -94,6 +94,11 @@ nav ul li:hover {
   text-decoration: underline;
   font-size: xx-large;
   margin-bottom: 20px;
+}
+
+.projects p {
+  padding-left: 20%;
+  padding-right: 20%;
 }
 
 .project {
