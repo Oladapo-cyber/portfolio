@@ -1,0 +1,57 @@
+[
+  {
+    "title": "EMR App",
+    "description": "Electronic Medical Records application designed to help healthcare providers efficiently manage patient data, treatments, track medical history, and streamline clinical workflows.",
+    "stack": ["React", "Node.js", "MongoDB", "Express"],
+    "github": "https://github.com/Oladapo-cyber/emr-app",
+    "live": "https://emr-app-demo.netlify.app",
+    "image": "https://images.unsplash.com/photo-1559757148-5c350d0d3c56?w=400&h=250&fit=crop&auto=format"
+  },
+  {
+    "title": "E-Commerce Store",
+    "description": "A full-stack clothing store with shopping cart, user authentication, favorites management, order tracking, and responsive design.",
+    "stack": [
+      "React",
+      "Redux",
+      "Node.js",
+      "Express",
+      "MongoDB",
+      "Tailwind CSS"
+    ],
+    "github": "https://github.com/Oladapo-cyber/e-commerce-app",
+    "live": "https://dapstore.netlify.app",
+    "image": "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=400&h=250&fit=crop&auto=format"
+  },
+  {
+    "title": "Tip Calculator",
+    "description": "Interactive tip calculator application built with React. Features bill splitting, custom tip percentages, and responsive design for easy dining calculations.",
+    "stack": ["React", "JavaScript", "CSS3", "HTML5"],
+    "github": "https://github.com/Oladapo-cyber/tip-calculator",
+    "live": "https://tip-calculator-daps.netlify.app",
+    "image": "https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=400&h=250&fit=crop&auto=format"
+  },
+  {
+    "title": "Task Management System",
+    "description": "A collaborative task management platform with real-time updates, team collaboration features, project tracking, and intuitive dashboard interface.",
+    "stack": ["React", "Node.js", "MongoDB", "Express", "Socket.io"],
+    "github": "https://github.com/Oladapo-cyber/task-manager",
+    "live": "https://task-manager-daps.netlify.app",
+    "image": "https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=400&h=250&fit=crop&auto=format"
+  },
+  {
+    "title": "Movie Streaming App",
+    "description": "A responsive movie and TV streaming platform with search, recommendations, and detailed movie information.",
+    "stack": ["React", "Tailwind CSS", "TMDB API", "VidSrc API"],
+    "github": "https://github.com/Oladapo-cyber/movie-app",
+    "live": "https://movie-stream-daps.netlify.app",
+    "image": "https://images.unsplash.com/photo-1536440136628-849c177e76a1?w=400&h=250&fit=crop&auto=format"
+  },
+  {
+    "title": "Portfolio Website",
+    "description": "Personal developer portfolio showcasing projects, skills, and experience. Built with modern React, featuring smooth animations, responsive design, and contact integration.",
+    "stack": ["React", "Tailwind CSS", "Vite", "React Icons"],
+    "github": "https://github.com/Oladapo-cyber/portfolio",
+    "live": "https://oladapo-portfolio.netlify.app",
+    "image": "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?w=400&h=250&fit=crop&auto=format"
+  }
+]
