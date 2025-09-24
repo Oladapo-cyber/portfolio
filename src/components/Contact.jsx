@@ -62,9 +62,13 @@ const Contact = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         {/* Section Header */}
         <div className="text-center mb-16 animate-fadeInUp">
+          <div className="inline-flex items-center justify-center w-12 h-12 bg-blue-100 rounded-xl mb-4">
+            <FaEnvelope className="w-6 h-6 text-blue-600" />
+          </div>
           <h2 className="text-4xl font-bold text-gray-900 mb-4">
             Get In Touch
           </h2>
+          <div className="w-20 h-1 bg-gradient-to-r from-blue-500 to-purple-500 mx-auto mb-4"></div>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
             Have a project in mind or want to collaborate? I'd love to hear from
             you. Send me a message and let's discuss how we can work together.
@@ -74,14 +78,21 @@ const Contact = () => {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
           {/* Contact Info */}
           <div className="animate-fadeInLeft">
-            <h3 className="text-2xl font-semibold text-gray-900 mb-6">
-              Let's Connect
-            </h3>
-            <p className="text-gray-600 mb-8 leading-relaxed">
-              I'm always interested in new opportunities, interesting projects,
-              and meeting fellow developers. Whether you have a question or just
-              want to say hi, feel free to reach out!
-            </p>
+            <div className="bg-white/60 backdrop-blur-sm rounded-2xl p-8 border border-white/20 shadow-lg mb-8">
+              <div className="flex items-center mb-6">
+                <div className="p-3 bg-gradient-to-br from-blue-500 to-purple-600 rounded-xl mr-4">
+                  <FaPaperPlane className="w-6 h-6 text-white" />
+                </div>
+                <h3 className="text-2xl font-bold text-gray-900">
+                  Let's Connect
+                </h3>
+              </div>
+              <p className="text-gray-700 leading-relaxed">
+                I'm always interested in new opportunities, interesting
+                projects, and meeting fellow developers. Whether you have a
+                question or just want to say hi, feel free to reach out!
+              </p>
+            </div>
 
             {/* Animated Contact Methods */}
             <div className="space-y-6">
@@ -239,7 +250,14 @@ const Contact = () => {
 
         {/* Footer */}
         <div className="mt-20 pt-8 border-t border-white/20 text-center animate-fadeInUp">
-          <p className="text-gray-600">© Daps inc | All rights reserved.</p>
+          <div className="bg-white/40 backdrop-blur-sm rounded-2xl p-6 border border-white/20 inline-block">
+            <p className="text-gray-700 font-medium">
+              © Daps 2025 | Built with React & Tailwind CSS
+            </p>
+            <p className="text-gray-500 text-sm mt-2">
+              Designed & Developed by Oladapo Yinusa
+            </p>
+          </div>
         </div>
       </div>
     </section>
