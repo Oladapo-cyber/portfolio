@@ -43,7 +43,7 @@
     "description": "A responsive movie and TV streaming platform with search, recommendations, and detailed movie information.",
     "stack": ["React", "Tailwind CSS", "TMDB API", "VidSrc API"],
     "github": "https://github.com/Oladapo-cyber/movie-app",
-    "live": "https://movie-stream-daps.netlify.app",
+    "live": "https://daps-movie-app.vercel.app/",
     "image": "https://images.unsplash.com/photo-1536440136628-849c177e76a1?w=400&h=250&fit=crop&auto=format"
   },
   {
@@ -51,7 +51,7 @@
     "description": "Personal developer portfolio showcasing projects, skills, and experience. Built with modern React, featuring smooth animations, responsive design, and contact integration.",
     "stack": ["React", "Tailwind CSS", "Vite", "React Icons"],
     "github": "https://github.com/Oladapo-cyber/portfolio",
-    "live": "https://oladapo-portfolio.netlify.app",
+    "live": "https://daps-portfolio.vercel.app/",
     "image": "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?w=400&h=250&fit=crop&auto=format"
   }
 ]
