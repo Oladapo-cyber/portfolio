@@ -93,8 +93,8 @@ router.put('/upgrade', protect, async (req, res) => {
 
     const user = await User.findById(req.user.id);
 
-    // In production, you would integrate with a payment provider like Stripe here
-    // For demo purposes, we'll just update the plan directly
+    // TODO: Integrate with payment provider (e.g., Stripe) for production use
+    // Current implementation updates plan directly for demonstration purposes
     user.plan = plan;
     await user.save();
 
