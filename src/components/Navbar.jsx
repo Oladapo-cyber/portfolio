@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import { HiMenu, HiX } from "react-icons/hi";
+import dapsLogo from "../assets/dapslogo.svg";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -52,11 +53,13 @@ const Navbar = () => {
           <div className="flex-shrink-0">
             <button
               onClick={() => scrollToSection("home")}
-              className="group relative text-2xl font-bold bg-gradient-to-r from-gray-900 via-blue-800 to-purple-800 bg-clip-text text-transparent hover:from-blue-600 hover:via-purple-600 hover:to-pink-600 transition-all duration-300 transform hover:scale-105"
+              className="group transition-transform duration-300 hover:scale-105 focus:outline-none"
             >
-              <span className="relative z-10">Daps</span>
-              {/* Glow effect */}
-              <div className="absolute inset-0 bg-gradient-to-r from-blue-500/20 to-purple-500/20 rounded-lg blur-sm opacity-0 group-hover:opacity-100 transition-opacity duration-300 -z-10"></div>
+              <img
+                src={dapsLogo}
+                alt="DAPS logo"
+                className="h-21 w-auto"
+              />
             </button>
           </div>
 

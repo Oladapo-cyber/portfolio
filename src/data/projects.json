@@ -1,57 +1,56 @@
 [
   {
+    "title": "Clusta Genomics",
+    "description": "Corporate website for a molecular diagnostics and life science company transforming Africa's health through precision genomics. Features product showcases, innovation highlights, and a dedicated diagnostics platform.",
+    "stack": ["TypeScript", "React", "Tailwind CSS", "Vite"],
+    "github": "https://github.com/Oladapo-cyber",
+    "live": "https://clustagenomics.com",
+    "image": "/src/assets/clustagenomics.png"
+  },
+  {
+    "title": "AlphaMead Gate Access",
+    "description": "A smart visitor management system for gate access control. Enables security personnel to verify visitor codes, scan QR codes, record exits, and manage visitor and exit logs in real time.",
+    "stack": ["React", "TypeScript", "Tailwind CSS", "Node.js"],
+    "github": "https://github.com/Oladapo-cyber",
+    "live": "https://alphamead-gate-access.vercel.app",
+    "image": "/src/assets/alphamead.png"
+  },
+  {
     "title": "EMR App",
     "description": "Electronic Medical Records application designed to help healthcare providers efficiently manage patient data, treatments, track medical history, and streamline clinical workflows.",
     "stack": ["React", "Node.js", "MongoDB", "Express"],
     "github": "https://github.com/Oladapo-cyber/emr-app",
     "live": "https://emr-app-demo.netlify.app",
-    "image": "https://images.unsplash.com/photo-1559757148-5c350d0d3c56?w=400&h=250&fit=crop&auto=format"
+    "image": "src/assets/emr-preview.png"
   },
   {
-    "title": "E-Commerce Store",
-    "description": "A full-stack clothing store with shopping cart, user authentication, favorites management, order tracking, and responsive design.",
+    "title": "Restaurant & Delivery App",
+    "description": "An elegant fine dining and delivery platform combining culinary artistry with seamless ordering. Features menu browsing, real-time order tracking, and a premium dining experience with delivery options.",
+    "stack": ["React", "Tailwind CSS", "Node.js", "Express"],
+    "github": "https://github.com/Oladapo-cyber/restaurant-app",
+    "live": "https://dapsheute.vercel.app",
+    "image": "/src/assets/dapsheute-preview.png"
+  },
+  {
+    "title": "Lagos Nightlife",
+    "description": "A dynamic web platform for an exclusive Lagos lounge, focusing on high-impact visual storytelling and functional service integration.",
     "stack": [
       "React",
       "Redux",
       "Node.js",
-      "Express",
-      "MongoDB",
+      "Express", 
       "Tailwind CSS"
     ],
-    "github": "https://github.com/Oladapo-cyber/e-commerce-app",
-    "live": "https://dapstore.netlify.app",
-    "image": "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=400&h=250&fit=crop&auto=format"
+    "github": "https://github.com/Oladapo-cyber/lagos-nightlife",
+    "live": "https://lagos-nightlife.netlify.app/",
+    "image": "src/assets/lagos-nightlife.png"
   },
-  {
-    "title": "Tip Calculator",
-    "description": "Interactive tip calculator application built with React. Features bill splitting, custom tip percentages, and responsive design for easy dining calculations.",
-    "stack": ["React", "JavaScript", "CSS3", "HTML5"],
-    "github": "https://github.com/Oladapo-cyber/tip-calculator",
-    "live": "https://tip-calculator-daps.netlify.app",
-    "image": "https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=400&h=250&fit=crop&auto=format"
-  },
-  {
-    "title": "Task Management System",
-    "description": "A collaborative task management platform with real-time updates, team collaboration features, project tracking, and intuitive dashboard interface.",
-    "stack": ["React", "Node.js", "MongoDB", "Express", "Socket.io"],
-    "github": "https://github.com/Oladapo-cyber/task-manager",
-    "live": "https://task-manager-daps.netlify.app",
-    "image": "https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=400&h=250&fit=crop&auto=format"
-  },
-  {
+   {
     "title": "Movie Streaming App",
     "description": "A responsive movie and TV streaming platform with search, recommendations, and detailed movie information.",
     "stack": ["React", "Tailwind CSS", "TMDB API", "VidSrc API"],
     "github": "https://github.com/Oladapo-cyber/movie-app",
-    "live": "https://daps-movie-app.vercel.app/",
-    "image": "https://images.unsplash.com/photo-1536440136628-849c177e76a1?w=400&h=250&fit=crop&auto=format"
-  },
-  {
-    "title": "Portfolio Website",
-    "description": "Personal developer portfolio showcasing projects, skills, and experience. Built with modern React, featuring smooth animations, responsive design, and contact integration.",
-    "stack": ["React", "Tailwind CSS", "Vite", "React Icons"],
-    "github": "https://github.com/Oladapo-cyber/portfolio",
-    "live": "https://daps-portfolio.vercel.app/",
-    "image": "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?w=400&h=250&fit=crop&auto=format"
+    "live": "https://dapsbox.vercel.app/",
+    "image": "/src/assets/dapsbox-preview.png"
   }
 ]

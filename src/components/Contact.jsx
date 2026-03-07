@@ -94,60 +94,63 @@ const Contact = () => {
               </p>
             </div>
 
-            {/* Animated Contact Methods */}
+            {/* Clickable Contact Methods */}
             <div className="space-y-6">
-              <div className="group flex items-center p-4 bg-white/60 backdrop-blur-sm border border-white/20 rounded-2xl hover:bg-white/80 transition-all duration-300 hover:scale-105 hover:shadow-xl">
+              {/* Email Card - Fully Clickable */}
+              <a
+                href="mailto:ydapo50@gmail.com"
+                className="group flex items-center p-4 bg-white/60 backdrop-blur-sm border border-white/20 rounded-2xl hover:bg-white/80 transition-all duration-300 hover:scale-105 hover:shadow-xl cursor-pointer block"
+              >
                 <div className="w-12 h-12 bg-gradient-to-br from-blue-500 to-blue-600 rounded-xl flex items-center justify-center mr-4 group-hover:rotate-12 transition-transform duration-300">
                   <FaEnvelope className="w-6 h-6 text-white" />
                 </div>
                 <div>
                   <p className="font-medium text-gray-900">Email</p>
-                  <a
-                    href="mailto:ydapo50@gmail.com"
-                    className="text-blue-600 hover:text-blue-700 transition-colors"
-                  >
+                  <p className="text-blue-600 group-hover:text-blue-700 transition-colors">
                     ydapo50@gmail.com
-                  </a>
+                  </p>
                 </div>
-              </div>
+              </a>
 
-              <div className="group flex items-center p-4 bg-white/60 backdrop-blur-sm border border-white/20 rounded-2xl hover:bg-white/80 transition-all duration-300 hover:scale-105 hover:shadow-xl">
+              {/* GitHub Card - Fully Clickable */}
+              <a
+                href="https://github.com/oladapo-cyber/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="group flex items-center p-4 bg-white/60 backdrop-blur-sm border border-white/20 rounded-2xl hover:bg-white/80 transition-all duration-300 hover:scale-105 hover:shadow-xl cursor-pointer block"
+              >
                 <div className="w-12 h-12 bg-gradient-to-br from-gray-700 to-gray-900 rounded-xl flex items-center justify-center mr-4 group-hover:rotate-12 transition-transform duration-300">
                   <FaGithub className="w-6 h-6 text-white" />
                 </div>
                 <div>
                   <p className="font-medium text-gray-900">GitHub</p>
-                  <a
-                    href="https://github.com/oladapo-cyber/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="text-blue-600 hover:text-blue-700 transition-colors"
-                  >
+                  <p className="text-blue-600 group-hover:text-blue-700 transition-colors">
                     github.com/oladapo-cyber
-                  </a>
+                  </p>
                 </div>
-              </div>
+              </a>
 
-              <div className="group flex items-center p-4 bg-white/60 backdrop-blur-sm border border-white/20 rounded-2xl hover:bg-white/80 transition-all duration-300 hover:scale-105 hover:shadow-xl">
+              {/* LinkedIn Card - Fully Clickable */}
+              <a
+                href="https://www.linkedin.com/in/oladapo-yinusa-26615b33a/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="group flex items-center p-4 bg-white/60 backdrop-blur-sm border border-white/20 rounded-2xl hover:bg-white/80 transition-all duration-300 hover:scale-105 hover:shadow-xl cursor-pointer block"
+              >
                 <div className="w-12 h-12 bg-gradient-to-br from-blue-600 to-blue-700 rounded-xl flex items-center justify-center mr-4 group-hover:rotate-12 transition-transform duration-300">
                   <FaLinkedin className="w-6 h-6 text-white" />
                 </div>
                 <div>
                   <p className="font-medium text-gray-900">LinkedIn</p>
-                  <a
-                    href="https://www.linkedin.com/in/oladapo-yinusa-26615b33a/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="text-blue-600 hover:text-blue-700 transition-colors"
-                  >
+                  <p className="text-blue-600 group-hover:text-blue-700 transition-colors">
                     linkedin.com/in/oladapo-yinusa
-                  </a>
+                  </p>
                 </div>
-              </div>
+              </a>
             </div>
           </div>
 
-          {/* Contact Form now with glass */}
+          {/* Contact Form - unchanged */}
           <div className="animate-fadeInRight">
             <form
               onSubmit={handleSubmit}
@@ -224,7 +227,7 @@ const Contact = () => {
                 </div>
               )}
 
-              {/* Submit Button with glass */}
+              {/* Submit Button */}
               <button
                 type="submit"
                 disabled={isSubmitting}
