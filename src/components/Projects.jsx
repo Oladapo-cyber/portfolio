@@ -6,13 +6,34 @@ import {
   FaCode,
 } from "react-icons/fa";
 
+// Import project images
+import clustaGenomicsImg from "../assets/clustagenomics.png";
+import alphamesdImg from "../assets/alphamead.png";
+import emrPreviewImg from "../assets/emr-preview.png";
+import dapsheutePreviewImg from "../assets/dapsheute-preview.png";
+import lagosNightlifeImg from "../assets/lagos-nightlife.png";
+import dapsboxPreviewImg from "../assets/dapsbox-preview.png";
+
+// Map project titles to their images
+const imageMap = {
+  "Clusta Genomics": clustaGenomicsImg,
+  "AlphaMead Gate Access": alphamesdImg,
+  "EMR App": emrPreviewImg,
+  "Restaurant & Delivery App": dapsheutePreviewImg,
+  "Lagos Nightlife": lagosNightlifeImg,
+  "Movie Streaming App": dapsboxPreviewImg,
+};
+
 const ProjectCard = ({ project }) => {
+  // Use imported image or fallback to project.image
+  const imageSrc = imageMap[project.title] || project.image;
+
   return (
     <div className="group bg-white rounded-xl shadow-md hover:shadow-xl transition-all duration-300 overflow-hidden border border-gray-100">
       {/* Project Image */}
       <div className="relative h-48 bg-gray-100 overflow-hidden">
         <img
-          src={project.image}
+          src={imageSrc}
           alt={`${project.title} screenshot`}
           className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
           onError={(e) => {
