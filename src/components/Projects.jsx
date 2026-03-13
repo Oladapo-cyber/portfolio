@@ -9,7 +9,7 @@ import {
 // Import project images
 import clustaGenomicsImg from "../assets/clustagenomics.png";
 import alphamesdImg from "../assets/alphamead.png";
-import emrPreviewImg from "../assets/emr-preview.png";
+import auraHealthImg from "../assets/AuraHealth.png";
 import dapsheutePreviewImg from "../assets/dapsheute-preview.png";
 import lagosNightlifeImg from "../assets/lagos-nightlife.png";
 import dapsboxPreviewImg from "../assets/dapsbox-preview.png";
@@ -18,7 +18,7 @@ import dapsboxPreviewImg from "../assets/dapsbox-preview.png";
 const imageMap = {
   "Clusta Genomics": clustaGenomicsImg,
   "AlphaMead Gate Access": alphamesdImg,
-  "EMR App": emrPreviewImg,
+  "EMR App": auraHealthImg,
   "Restaurant & Delivery App": dapsheutePreviewImg,
   "Lagos Nightlife": lagosNightlifeImg,
   "Movie Streaming App": dapsboxPreviewImg,

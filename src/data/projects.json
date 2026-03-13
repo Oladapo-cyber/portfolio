@@ -20,8 +20,8 @@
     "description": "Electronic Medical Records application designed to help healthcare providers efficiently manage patient data, treatments, track medical history, and streamline clinical workflows.",
     "stack": ["React", "Node.js", "MongoDB", "Express"],
     "github": "https://github.com/Oladapo-cyber/emr-app",
-    "live": "https://emr-app-demo.netlify.app",
-    "image": "src/assets/emr-preview.png"
+    "live": "https://aurahealthmain.netlify.app/",
+    "image": "src/assets/AuraHealth.png"
   },
   {
     "title": "Restaurant & Delivery App",
