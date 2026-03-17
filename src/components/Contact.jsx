@@ -1,8 +1,20 @@
 import React, { useState } from "react";
-import { FaEnvelope, FaGithub, FaLinkedin, FaPaperPlane } from "react-icons/fa";
+import {
+  FaEnvelope,
+  FaGithub,
+  FaLinkedin,
+  FaPaperPlane,
+  FaPhoneAlt,
+  FaWhatsapp,
+} from "react-icons/fa";
 import emailjs from "@emailjs/browser";
 
 const Contact = () => {
+  const phoneNumberIntl = "+2348133437231";
+  const phoneDisplay = "+234 813 343 7231";
+  const whatsappHref =
+    "https://wa.me/2348133437231?text=Hi%20Yinusa%2C%20I%20saw%20your%20portfolio%20and%20I%27d%20like%20to%20discuss%20a%20project.";
+
   const [formData, setFormData] = useState({
     name: "",
     email: "",
@@ -108,6 +120,40 @@ const Contact = () => {
                   <p className="font-medium text-gray-900">Email</p>
                   <p className="text-blue-600 group-hover:text-blue-700 transition-colors">
                     ydapo50@gmail.com
+                  </p>
+                </div>
+              </a>
+
+              {/* Phone Card - Fully Clickable */}
+              <a
+                href={`tel:${phoneNumberIntl}`}
+                className="group flex items-center p-4 bg-white/60 backdrop-blur-sm border border-white/20 rounded-2xl hover:bg-white/80 transition-all duration-300 hover:scale-105 hover:shadow-xl cursor-pointer block"
+              >
+                <div className="w-12 h-12 bg-gradient-to-br from-green-500 to-emerald-600 rounded-xl flex items-center justify-center mr-4 group-hover:rotate-12 transition-transform duration-300">
+                  <FaPhoneAlt className="w-6 h-6 text-white" />
+                </div>
+                <div>
+                  <p className="font-medium text-gray-900">Phone</p>
+                  <p className="text-blue-600 group-hover:text-blue-700 transition-colors">
+                    {phoneDisplay}
+                  </p>
+                </div>
+              </a>
+
+              {/* WhatsApp Card - Fully Clickable */}
+              <a
+                href={whatsappHref}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="group flex items-center p-4 bg-white/60 backdrop-blur-sm border border-white/20 rounded-2xl hover:bg-white/80 transition-all duration-300 hover:scale-105 hover:shadow-xl cursor-pointer block"
+              >
+                <div className="w-12 h-12 bg-gradient-to-br from-green-600 to-green-500 rounded-xl flex items-center justify-center mr-4 group-hover:rotate-12 transition-transform duration-300">
+                  <FaWhatsapp className="w-6 h-6 text-white" />
+                </div>
+                <div>
+                  <p className="font-medium text-gray-900">WhatsApp</p>
+                  <p className="text-blue-600 group-hover:text-blue-700 transition-colors">
+                    {phoneDisplay}
                   </p>
                 </div>
               </a>

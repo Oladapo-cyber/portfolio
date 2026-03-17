@@ -51,8 +51,9 @@ const Hero = () => {
           experiences and clean, maintainable code.
         </p>
 
-        {/* Glass Morphism Buttons */}
+        {/* Primary CTA Buttons */}
         <div className="flex flex-col sm:flex-row gap-4 justify-center mb-8 animate-fadeInUp delay-500">
+          {/* View Projects */}
           <button
             onClick={() => scrollToSection("projects")}
             className="group relative px-8 py-4 bg-gradient-to-r from-blue-600/90 to-purple-600/90 backdrop-blur-sm border border-white/20 rounded-2xl text-white font-medium shadow-2xl hover:shadow-blue-500/25 transition-all duration-300 hover:scale-105 hover:-translate-y-1 overflow-hidden"
@@ -64,6 +65,7 @@ const Hero = () => {
             </div>
           </button>
 
+          {/* Get In Touch */}
           <button
             onClick={() => scrollToSection("contact")}
             className="group relative px-8 py-4 bg-white/10 backdrop-blur-sm border-2 border-blue-600/50 rounded-2xl text-blue-600 font-medium shadow-xl hover:shadow-blue-500/25 hover:bg-blue-600/10 transition-all duration-300 hover:scale-105 hover:-translate-y-1 overflow-hidden"
@@ -77,7 +79,7 @@ const Hero = () => {
         </div>
 
         {/* Glass Resume Button */}
-        <div className="flex justify-center mb-16 animate-fadeInUp delay-600">
+        <div className="flex justify-center mb-16 animate-fadeInUp delay-700">
           <a
             href="/Oladapo-Yinusa-Resume.pdf"
             download="Yinusa_Oladapo_Resume.pdf"
@@ -89,7 +91,7 @@ const Hero = () => {
         </div>
 
         {/* Animated Social Icons */}
-        <div className="flex justify-center space-x-6 animate-fadeInUp delay-700">
+        <div className="flex justify-center space-x-6 animate-fadeInUp delay-700"> 
           <a
             href="https://github.com/oladapo-cyber/"
             target="_blank"
